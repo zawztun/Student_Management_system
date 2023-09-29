@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name = "hibernate.entity.Student" table = "student01">
+<id name="studentId" column="stuid">
+<generator class = "increment"/>
+</id>
+<property name="studentName" column="name"/>
+ 	<property name="studentMark" column="mark"/>
+</class>
+</hibernate-mapping>
